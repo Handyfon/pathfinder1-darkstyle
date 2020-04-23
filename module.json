@@ -6,9 +6,9 @@
 	"author": "Handyfon#8390",
 	"styles": ["css/darkpath.css"],
 	 "socket": true,
-    "url": "https://github.com/Handyfon/Darksheetstyle",
-    "manifest": "https://raw.githubusercontent.com/Handyfon/Darksheetstyle/master/module.json",
-    "download": "https://github.com/Handyfon/Darksheetstyle/raw/master/darksheet-style.zip",
+    "url": "https://github.com/Handyfon/pathfinder1-darkstyle",
+    "manifest": "https://raw.githubusercontent.com/Handyfon/pathfinder1-darkstyle/master/module.json",
+    "download": "https://github.com/Handyfon/pathfinder1-darkstyle/raw/master/pathfinder1-style.zip",
 	"minimumCoreVersion": "0.5.5",
 	"compatibleCoreVersion": "0.5.5"
 }
