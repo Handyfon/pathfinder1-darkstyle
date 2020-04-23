@@ -1,0 +1,302 @@
+section.window-content {
+    background: #36393F !important;
+    color: white !important;
+}
+input {
+    color: #dcddde !important;
+}
+label {
+    color: #72767d !important;
+}
+input.ability-damage {
+	color: #d77373 !important;
+}
+input.ability-penalty {
+	color: #d77373 !important;
+}
+input.ability-drain {
+	color: #d77373 !important;
+}
+.pf1.sheet .sheet-navigation .item.active {
+    border-bottom: 3px solid #7289DA;
+    color: #ffffff;
+}
+.pf1.sheet .editable .rollable:hover {
+    color: #7289DA;
+    text-shadow: 0 0 10px #7289DA;
+    cursor: pointer;
+}
+a.item {
+    color: #c5c5c5;
+}
+::-webkit-scrollbar-thumb {
+    outline: none;
+    border-radius: 3px;
+    background: #202225;
+    border: 1px solid #202225;
+}
+::placeholder {
+    color: #99AAB5 !important;
+}
+
+.pf1 input[type="text"], .pf1 select {
+    border: 1px solid #7a7971;
+    background: rgba(0, 0, 0, 0.05);
+    color: #91a1ab;
+}
+li.tag {
+    color: black !important;
+    background: white !important;
+}
+h3 {
+    color: #7289DA;
+}
+.pf1.sheet.actor ul.skills-list li.skill .skill-name .image-d20, .pf1.sheet.actor ul.skills-list li.sub-skill .skill-name .image-d20 {
+    filter: contrast(0.5);
+}
+.pf1.sheet.actor .condition label span {
+    font-size: 12px;
+    color: #99AAB5;
+}
+.pf1.sheet.actor .inventory-list .inventory-header {
+    margin: 2px 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px groove #ffffff;
+    font-weight: bold;
+    line-height: 24px;
+}
+i {
+    color: white;
+}
+.pf1.sheet.actor .inventory-list .inventory-header .item-controls a.item-create {
+    color: white;
+    flex: 0 0 100%;
+}
+.pf1.sheet.actor .inventory-list .item-detail {
+    color: #FFFFFF;
+}
+.tox.tox-tinymce {
+    background: white;
+}
+.pf1.sheet.item h4.damage-header, .pf1.sheet.item h4.change-header, .pf1.sheet.item h4.context-notes-header, .pf1.sheet.item h4.attack-header {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    line-height: 24px;
+    color: #99AAB5;
+}
+.pf1 .form-group label.header {
+    flex: 0 0 100%;
+    color: #7289da !important;
+}
+h4.form-header {
+    color: #7289da;
+}
+.pf1.sheet.item .details input[type="text"], .pf1.sheet.item .details select {
+    border: 1px solid #7a7971;
+    background: #40444B;
+}
+.pf1.sheet.actor .sheet-header .header-details .attribute.speed .attribute-speed input[type="text"] {
+    height: 16px;
+    margin: 0;
+    background: #40444B;
+    padding: 0;
+}
+.pf1.sheet.actor .attributes input[type="text"] {
+    height: 24px;
+    background: #40444B;
+}
+.pf1.sheet.actor .inventory-filters .currency input[type="text"] {
+    flex: 0 0 64px;
+    text-align: center;
+    background: #40444B;
+    margin-left: 8px;
+    border-bottom: 2px groove #eeede0;
+}
+.pf1.sheet.actor .carry-bonus input[type="text"] {
+    flex: 0 0 48px;
+    text-align: center;
+    margin-left: 8px;
+    background: #40444B;
+    border-bottom: 2px groove #eeede0;
+}
+.pf1.sheet .sheet-navigation .item.active {
+    border-bottom: 3px solid #7289DA;
+    color: #ffffff;
+    background: #23272A;
+}
+a.item:hover {
+    color: #ffffff;
+    background: #23272A;
+}
+.pf1.sheet.actor.character .sheet-header .charlevel .xpbar .bar {
+    height: 4px;
+    margin: 1px;
+    display: block;
+    background: #7681ce;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.pf1.sheet.actor.character .sheet-header .charlevel .level {
+    height: 28px;
+    color: #7681ce;
+}
+.pf1.sheet .sheet-header h1 input {
+    height: 50px;
+    color: #7484d4 !important;
+    font-size: 36px;
+}
+#chat-log .message {
+    background: url(../ui/parchment.jpg) repeat;
+    border: 2px solid #696969;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    color: #ffffff;
+    background: #36393f;
+    font-size: 14px;
+}
+#chat-log .message .message-header {
+    line-height: 20px;
+    color: #ffffff;
+}
+
+span.tag {
+    background: white !important;
+    color: black;
+}
+.dice-roll .dice-total {
+    flex: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background: #7289DA;
+}
+#chat-log .message .property-group label {
+    flex: 2;
+    font-weight: bold;
+    color: #ced2d4 !important;
+}
+.pf1 input[type="text"], .pf1 select {
+    border: 1px solid #7a7971;
+    background: rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+}
+.pf1.sheet select {
+    flex: 1;
+    font-size: 12px;
+    height: 22px;
+    color: #99aab5;
+    background: transparent;
+}
+.pf1.sheet textarea {
+    font-family: sans-serif;
+    border-color: #90a0ab;
+    min-height: 16px;
+    padding: 1px 5px;
+}
+.pf1.sheet input[type="text"]:hover, .pf1.sheet textarea:hover, .pf1.sheet input[type="text"]:focus, .pf1.sheet textarea:focus {
+    border: 1px solid #fff;
+}
+.pf1.sheet.actor .tab.features label.checkbox, .pf1.sheet.actor .tab.inventory label.checkbox, .pf1.sheet.actor .tab.spellbook label.checkbox {
+    text-align: left;
+    flex: 0;
+    margin: 0 0 0 4px;
+    color: white !important;
+}
+form .notes, form .hint {
+    flex: 0 0 100%;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 3px 0;
+}
+#settings button {
+    margin: 0.5em 0;
+    background: #2C2F33;
+    color: white;
+}
+#chat-form textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background: #40444B;
+    color: white;
+}
+#scenes .scene h3 {
+    line-height: 90px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-shadow: 1px 1px 3px #505b7d;
+    border: solid 1px;
+}
+
+.sidebar-tab .directory-list .entity {
+    /* border-top: 1px solid #fff; */
+    border-bottom: 1px solid #fff;
+}
+li.directory-item.entity.actor.flexrow {
+    background: #36393f;
+}
+li.directory-item.entity.actor.flexrow:hover {
+    background: #40444b;
+}
+#sidebar {
+    border: 1px solid #000;
+    background: #23272A;
+}
+button {
+    color: white;
+    background: black;
+}
+button:hover {
+    color: white;
+    background: #40444b;
+    text-shadow: 0 0 2px;
+}
+select {
+    height: 25px;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #7a7971;
+    color: #92a2ac;
+    border-radius: 3px;
+    padding: 0 3px;
+    text-overflow: ellipsis;
+}
+#pause h3 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    color: #EEE;
+    text-shadow: 1px 1px 30px #7289da;
+    color: white !important;
+}
+li {
+    color: #d9dacc;
+}
+#module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description {
+    color: #fdfdfa;
+}
+.pf1.sheet.actor .inventory-filters h3, .pf1.sheet.actor .inventory-filters .filter-title {
+    font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
+    font-size: 20px;
+    color: #7484d4;
+    font-size: 18px;
+    margin: 0;
+}
+.package-list .package .tag {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 1px 4px 0;
+    margin: 0 0 0 2px;
+    font-size: 11px;
+    line-height: 20px;
+    text-decoration: none;
+    background: #333;
+    color: #080808;
+}
