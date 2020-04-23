@@ -86,8 +86,9 @@ a.item {
     color: #91a1ab;
 }
 li.tag {
-    color: black !important;
-    background: white !important;
+    color: #bfbfbf !important;
+    background: #40444b !important;
+    border-color: #40444b!important;
 }
 h3 {
     color: #7289DA;
