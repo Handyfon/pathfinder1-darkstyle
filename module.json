@@ -2,7 +2,7 @@
 	"name": "pathfinder1-style",
 	"title": "Pathfinder 1 - Dark-Style Addon",
 	"description": "Adds styling to the pathfinder 1 system",
-	"version": "1.0",
+	"version": "1.1",
 	"author": "Handyfon#8390",
 	"styles": ["css/darkpath.css"],
 	 "socket": true,

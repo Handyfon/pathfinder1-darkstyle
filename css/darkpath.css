@@ -21,7 +21,7 @@ section.window-content {
     height: 94px;
     margin: 0 2px;
     text-align: center;
-    border: 2px groove #eeede0;
+    border: 2px solid #40444b;
     background: #40444b;
     border-radius: 3px;
     color: currentColor;
@@ -31,6 +31,7 @@ section.window-content {
     border-right: 2px groove #2c2f34;
     border-top: 2px groove #2c2f34;
     color: #9c9c9c;
+    background: #2b32476e;
 }
 .pf1.sheet.actor .ability-scores .ability .ability-modifiers input[type="text"].ability-base {
     border-left: 2px groove #2c2f34;
@@ -345,7 +346,31 @@ li {
 .pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-drain {
     flex: 1;
     height: 24px;
-    border-bottom: 2px groove #eeede0;
-    background: #2b3247;
-    border-left: 2px groove #eeede0;
+    border-bottom: 0;
+    border-right: 2px solid #2c2f33;
+    border-left: 2px solid #2c2f33;
+    background: #2c2f3385;
+}
+.pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-penalty {
+    flex: 1;
+    height: 24px;
+    border-bottom: 0;
+    border-right: 2px solid #2c2f33;
+    background: #2c2f3385;
+}
+.pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-damage {
+    flex: 1;
+    height: 24px;
+    border-bottom: 0;
+    border-right: 2px solid #2c2f33;
+    border-left: 2px solid #2c2f33;
+    background: #2c2f3385;
+}
+.pf1.sheet.actor .ability-scores .ability .ability-header {
+    height: 24px;
+    margin: 0;
+    border: 1px groove black;
+}
+.pf1.sheet.actor .ability-scores {
+    margin-bottom: 5px;
 }
